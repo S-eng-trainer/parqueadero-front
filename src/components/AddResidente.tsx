@@ -39,7 +39,7 @@ export default function AddResidente({
 
     try {
       setLoading(true);
-      const res = await fetch("http://18.223.252.188:8080/api/residentes", {
+      const res = await fetch("/api/residentes", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload),

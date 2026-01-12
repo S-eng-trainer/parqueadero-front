@@ -21,7 +21,7 @@ export default function ResidentesPage() {
     setLoading(true);
     setError(null);
     try {
-      const res = await fetch("http://18.223.252.188:8080/api/residentes", {
+      const res = await fetch("/api/residentes", {
         cache: "no-store",
       });
 

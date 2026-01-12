@@ -1,0 +1,2 @@
+# Redirect API calls to backend server
+/api/* http://18.223.252.188:8080/api/:splat  200!
